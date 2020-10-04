@@ -2,51 +2,49 @@ steamPage:
     shortText: shapez.io on peli tehtaiden rakentamisesta, joiden avulla
         automatisoidaan yhä monimutkaisempien muotojen luonti and yhdisteleminen
         loputtomassa maailmassa.
-    discordLinkShort: Official Discord
+    discordLinkShort: Virallinen Discord
     intro: >-
-        Shapez.io is a relaxed game in which you have to build factories for the
-        automated production of geometric shapes.
+        Shapez.io on rento peli, jossa rakennat tehtaita geometristen muotojen tuottamiseen.
 
-        As the level increases, the shapes become more and more complex, and you have to spread out on the infinite map.
+        Kun taso nousee, muodot muuttuvat enemmän ja enemmän monimutkaisemmiksi, ja sinun täytyy levittäytyä loputtomassa kartassa.
 
-        And as if that wasn't enough, you also have to produce exponentially more to satisfy the demands - the only thing that helps is scaling!
+        Ja jos tämä ei ole tarpeeksi, sinun tarvitsee myös tuottaa exponentiaalisesti lisää muotoja tyydyttääksesi kysynnän - ainoa asia joka auttaa on skaalaus!
 
-        While you only process shapes at the beginning, you have to color them later - for this you have to extract and mix colors!
+        Alussa sinun tarvitsee vain käsitellä muotoja, värjäät ne vasta myöhemmin - siihen sinun tarvitsee louhia ja sekoittaa värejä!
 
-        Buying the game on Steam gives you access to the full version, but you can also play a demo on shapez.io first and decide later!
-    title_advantages: Standalone Advantages
+        Pelin ostaminen Steamissa antaa sinulle oikeuden pelin kokoversioon, mutta voit myös pelata demoversiota osoitteessa shapez.io ensin ja päättää myöhemmin!
+    title_advantages: Itsenäisen pelin hyödyt
     advantages:
-        - <b>12 New Level</b> for a total of 26 levels
-        - <b>18 New Buildings</b> for a fully automated factory!
-        - <b>20 Upgrade Tiers</b> for many hours of fun!
-        - <b>Wires Update</b> for an entirely new dimension!
-        - <b>Dark Mode</b>!
-        - Unlimited Savegames
-        - Unlimited Markers
-        - Support me! ❤️
-    title_future: Planned Content
+        - <b>12 Uutta Tasoa</b> 26 tasoa yhteensä
+        - <b>18 Uusia Rakennuksia</b> kokonaan automatisoituun tehtaaseen!
+        - <b>20 Päivitystasoa </b> monta tuntia hauskanpitoa!
+        - <b>Johtopäivitys</b> kokonaan uuteen ulottuvuuteen!
+        - <b>Tumma Tila</b>!
+        - Loputon Määrä Tallennuksia
+        - Loputtomasti Merkkejä
+        - Auta minua! ❤️
+    title_future: Suunniteltu Sisältö
     planned:
-        - Blueprint Library (Standalone Exclusive)
-        - Steam Achievements
-        - Puzzle Mode
-        - Minimap
-        - Mods
-        - Sandbox mode
+        - Suunnitelmakirjasto (Itsenäiseen peliin)
+        - Steam Saavutukset
+        - Pulmatila
+        - Minikartta
+        - Modit
+        - Hiekkalaatikkotila
         - ... and a lot more!
-    title_open_source: This game is open source!
-    title_links: Links
+    title_open_source: Tällä pelillä on avoin lähdekoodi!
+    title_links: Linkit
     links:
-        discord: Official Discord
-        roadmap: Roadmap
-        subreddit: Subreddit
-        source_code: Source code (GitHub)
-        translate: Help translate
+        discord: Virallinen Discord
+        roadmap: Etenemissuunnitelma
+        subreddit: Reddit
+        source_code: Lähdekoodi (GitHub)
+        translate: Auta kääntämään
     text_open_source: >-
-        Anybody can contribute, I'm actively involved in the community and
-        attempt to review all suggestions and take feedback into consideration
-        where possible.
+        Kuka vain voi osallistua, Olen aktiivisesti mukana yhteisössä ja
+        koitan katsoa kaikki ehdotukset ja ottaa huomioon palautetta siinä määrin missä se on mahdollista.
 
-        Be sure to check out my trello board for the full roadmap!
+        Koko etenemissuunnitelma löytyy minun trello taulustani!
 global:
     loading: Ladataan
     error: Virhe
@@ -80,7 +78,7 @@ global:
         space: VÄLILYÖNTI
 demoBanners:
     title: Demoversio
-    intro: Hanki itsenäinen peli avataksesi kaikki omunaisuudet!
+    intro: Hanki itsenäinen peli avataksesi kaikki ominaisuudet!
 mainMenu:
     play: Pelaa
     continue: Jatka
@@ -96,7 +94,7 @@ mainMenu:
         Hanki itsenäinen versio tai lataa Chrome täyttä tukea varten.
     savegameLevel: Taso <x>
     savegameLevelUnknown: Tuntematon Taso
-    savegameUnnamed: Unnamed
+    savegameUnnamed: Nimetön
 dialogs:
     buttons:
         ok: OK
@@ -111,7 +109,7 @@ dialogs:
         showUpgrades: Näytä Päivitykset
         showKeybindings: Näytä pikanäppäimet
     importSavegameError:
-        title: Tuonti Virhe
+        title: Virhe tuotaessa tallennusta
         text: "Tallennuksen tuonti epäonnistui:"
     importSavegameSuccess:
         title: Tallennus tuotiin
@@ -121,14 +119,13 @@ dialogs:
         text: "Tallennuksen lataus epäonnistui:"
     confirmSavegameDelete:
         title: Varmista poisto
-        text: Are you sure you want to delete the following game?<br><br>
-            '<savegameName>' at level <savegameLevel><br><br> This can not be
-            undone!
+        text: Oletko varma että haluat poistaa tämän tallennuksen?<br><br>
+            '<savegameName>' tasolla <savegameLevel><br><br> Tätä ei voi peruuttaa!
     savegameDeletionError:
         title: Poisto epäonnistui
         text: "Tallennuksen poisto epäonnistui:"
     restartRequired:
-        title: Uudelleenkäynnistys vaaditaan
+        title: Vaaditaan uudelleenkäynnistys.
         text: Käynnistä peli uudelleen ottaaksesi asetukset käyttöön.
     editKeybinding:
         title: Vaihda pikanäppäin
@@ -143,18 +140,18 @@ dialogs:
     featureRestriction:
         title: Demoversio
         desc: Yritit käyttää ominaisuutta (<feature>) joka ei ole saatavilla
-            demoversiossa. Harkitse itsenäisen version hankkimista avataksesi
+            demoversiossa. Harkitsethan itsenäisen version hankkimista avataksesi
             kaikki ominaisuudet!
     oneSavegameLimit:
-        title: Rajoitetut tallennukset
+        title: Tallennukset rajoitettu
         desc: Sinulla voi olla vain yksi tallennus kerrallaan demoversiossa. Poista
             vanha tallennus tai hanki itsenäinen versio!
     updateSummary:
         title: Uusi päivitys!
-        desc: "Tässä on tulleet muutokset sen jälkeen kun viimeksi pelasit:"
+        desc: "Tässä ovat uudet muutokset sen jälkeen kun viimeksi pelasit:"
     upgradesIntroduction:
         title: Avaa Päivitykset
-        desc: Kaikkia muodoja joita tuotat voi käyttää päivitysten avaamiseen -
+        desc: Kaikkia muodoja joita tuotat voidaan käyttää päivitysten avaamiseen -
             <strong>Älä tuhoa vanhoja tehtaitasi!</strong> Löydät
             päivitysikkunan näytön oikeasta yläkulmasta.
     massDeleteConfirm:
@@ -245,7 +242,7 @@ ingame:
             range: Matka
             storage: Varasto
             oneItemPerSecond: 1 kappale / sekunti
-            itemsPerSecond: <x> kappaleita / s
+            itemsPerSecond: <x> kappaletta / s
             itemsPerSecondDouble: (x2)
             tiles: <x> laattaa
     levelCompleteNotification:
@@ -999,15 +996,15 @@ demo:
         exportingBase: Viedään koko tukikohta kuvana
     settingNotAvailable: Ei saatavilla demoversiossa.
 tips:
-    - The hub accepts input of any kind, not just the current shape!
-    - Make sure your factories are modular - it will pay out!
-    - Don't build too close to the hub, or it will be a huge chaos!
-    - If stacking does not work, try switching the inputs.
-    - You can toggle the belt planner direction by pressing <b>R</b>.
-    - Holding <b>CTRL</b> allows dragging of belts without auto-orientation.
-    - Ratios stay the same, as long as all upgrades are on the same Tier.
-    - Serial execution is more efficient than parallel.
-    - You will unlock more variants of buildings later in the game!
+    - Päärakennus hyväksyy sisään mitä vaan, ei pelkästään nykyistä muotoa!
+    - Varmista että tehtaasi ovat are modulaarisia - se hyödyttää!
+    - Älä rakenna liian lähelle Päärakennusta, tai se tulee olemaan suuri kaaos!
+    - Jos pinoaminen ei toimi, yritä vaihtaa syötöt.
+    - Sinä voit vaihtaa hihnasuunnittelijan suuntaa painamalla <b>R</b>.
+    - <b>CTRL</b>:llin pitäminen pohjassa sallii hihnojen asettamisen ilman automaattista suuntausta.
+    - Suhteet pysyvät samoina niin kauan, kuin kaikki päivitykset ovat samalla Tasolla.
+    - Sarjatuotanto on tehokkaampaa kuin rinnakkaistuotanto.
+    - Avaat lisää muunnoksia rakennuksista myöhemmin pelissä!
     - You can use <b>T</b> to switch between different variants.
     - Symmetry is key!
     - You can weave different tiers of tunnels.
